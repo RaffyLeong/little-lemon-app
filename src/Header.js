@@ -1,9 +1,11 @@
 import React from 'react'
+import Nav from './Nav';
 
 const Header = () => {
   return (
-    <header>
-        
+    <header className="header">
+        <img src="/Little-Lemon.jpg" alt='Little Lemon Logo'/>
+        <Nav />
     </header>
   )
 }
