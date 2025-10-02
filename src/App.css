@@ -402,3 +402,84 @@ footer {
     align-items: center;
   }
 }
+
+/* Booking Page */
+/* Booking Page - Title */
+.booking-page {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.booking-page h1 {
+  font-family: 'Markazi Text', serif;
+  font-size: 3rem;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.booking-page p {
+  font-family: 'Karla', sans-serif;
+  font-size: 18px;
+  color: #686868;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.booking-info {
+  text-align: center;
+}
+
+
+/* Booking Form */
+form {
+  border: 2px solid #495E57;
+  background-color: #EDEFEE;
+  padding: 30px;
+  max-width: 500px;
+  margin: 2rem auto;
+  gap: 20px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333333;
+
+}
+
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  font-family: 'Karla', sans-serif;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #F4CE14;
+  color: black;
+  border-radius: 8px;
+  border: none;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-top: 1rem;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.05);
+  background-color: #495E57;
+  color: white;
+}
+
