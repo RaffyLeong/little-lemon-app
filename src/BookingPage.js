@@ -2,7 +2,7 @@ import React from "react";
 import BookingForm from './BookingForm'
 
 
-const BookingPage = ({ availableTimes, dispatch }) => {
+const BookingPage = ({ availableTimes, dispatch, submitForm }) => {
   return (
     <div className="booking-page">
       <h1>Reserve Your Table</h1>
@@ -11,6 +11,7 @@ const BookingPage = ({ availableTimes, dispatch }) => {
     <BookingForm
       availableTimes={availableTimes}
       dispatch={dispatch}
+      submitForm={submitForm}
     />
 
     <div className="booking-info">
