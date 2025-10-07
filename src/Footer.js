@@ -8,19 +8,19 @@ const Footer = () => {
         <div className="footer-logo">
           <img src="/Little-Lemon.jpg" alt="Little Lemon" />
         </div>
-        
+
         {/* Navigation Links */}
         <div className="footer-nav">
           <h4>Navigation</h4>
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
-            <li><a href="/menu">Menu</a></li>
+            <li><a href="/">Menu</a></li>
             <li><a href="/reservations">Reservations</a></li>
-            <li><a href="/order">Order Online</a></li>
+            <li><a href="/">Order Online</a></li>
           </ul>
         </div>
-        
+
         {/* Contact Information */}
         <div className="footer-contact">
           <h4>Contact</h4>
@@ -28,18 +28,18 @@ const Footer = () => {
           <p>Phone Number: (555) 123-4567</p>
           <p>Email: info@littlelemon.com</p>
         </div>
-        
+
         {/* Social Media Links */}
         <div className="footer-social">
           <h4>Follow Us</h4>
           <div className="social-links">
-            <a href="https://www.linkedin.com/in/ka-fong-leong/">Facebook</a>
-            <a href="https://www.linkedin.com/in/ka-fong-leong/">Instagram</a>
-            <a href="https://www.linkedin.com/in/ka-fong-leong/">Twitter</a>
+            <a href="/">Facebook</a>
+            <a href="/">Instagram</a>
+            <a href="/">Twitter</a>
           </div>
         </div>
       </div>
-      
+
       {/* Copyright */}
       <div className="footer-bottom">
         <p>&copy; 2024 Little Lemon Restaurant. All rights reserved.</p>

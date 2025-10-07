@@ -1,4 +1,7 @@
 import React from 'react'
+import CustomersReview from './CustomersReview'
+import { Link } from 'react-router-dom';
+
 
 const HomePage = () => {
   return (
@@ -16,6 +19,7 @@ const HomePage = () => {
           </div>
         </section>
 
+
         {/* Specials */}
         <section className='specials'>
           <div className='specials-header'>
@@ -29,7 +33,9 @@ const HomePage = () => {
               <h2>Greek Salad</h2>
               <span>$12.00</span>
               <p>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons</p>
-              <button>Order a delivery</button>
+              <Link to="/reservations">
+              <button src="/reservations">Order a delivery</button>
+              </Link>
             </div>
 
             <div className='card'>
@@ -37,7 +43,9 @@ const HomePage = () => {
               <h2>Bruchetta</h2>
               <span>$5.99</span>
               <p>Our Bruchetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.</p>
-              <button>Order a delivery</button>
+              <Link to="/reservations">
+              <button src="/reservations">Order a delivery</button>
+              </Link>
             </div>
 
             <div className='card'>
@@ -45,10 +53,12 @@ const HomePage = () => {
               <h2>Lemon Dessert</h2>
               <span>$5.00</span>
               <p>This comes straight from grandma's recipe book, every last ingredient has been source and is as authentic as can be imagined</p>
-              <button>Order a delivery</button>
+              <Link to="/reservations">
+              <button src="/reservations">Order a delivery</button>
+              </Link>
             </div>
-
           </div>
+          <CustomersReview/>
 
         </section>
     </div>

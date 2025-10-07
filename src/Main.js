@@ -57,9 +57,7 @@ const Main = () => {
           />} />
 
         <Route path="/confirmed" element={<ConfirmedBooking />} />
-        <Route path="/menu" element={<div>Menu Page Coming Soon</div>} />
-        <Route path="/order-online" element={<div>Order Online Coming Soon</div>} />
-        <Route path="/login" element={<div>Login Coming Soon</div>} />
+
       </Routes>
 
     </main>
