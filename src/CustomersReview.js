@@ -50,7 +50,7 @@ const CustomersReview = () => {
             </div>
             <div className='customer-info'>
               <h3 className='customer-name'>{testimonial.name}</h3>
-              <span className='customer-username'>{testimonial.usrname}</span>
+              <span className='customer-username'>{testimonial.username}</span>
             </div>
             <p className='customer-comment'>{testimonial.comment}</p>
           </div>

@@ -8,6 +8,8 @@ const BookingPage = ({ availableTimes, dispatch, submitForm }) => {
       <h1>Reserve Your Table</h1>
       <p>Experience the taste of Mediterranean at Little Lemon</p>
 
+
+ {/* Render the BookingForm and pass down all the props it needs */}
     <BookingForm
       availableTimes={availableTimes}
       dispatch={dispatch}
